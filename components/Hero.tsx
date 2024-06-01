@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="h-screen w-full dark:bg-black-100 bg-white  flex items-center justify-center absolute top-0 left-0">
         <SparklesCore
           background="transparent"
-          minSize={0.4}
-          maxSize={1}
-          particleDensity={200}
+          minSize={0.7}
+          maxSize={1.5}
+          particleDensity={100}
           className="w-full h-full"
           particleColor="#FFFFFF"
         />
