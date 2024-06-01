@@ -37,17 +37,19 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Mágica Dinâmica de Site em Next.js
           </h2>
-          <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl mb-5"
-            words={"Transformando Conceitos em Experiências Surreais"}
-          />
-          <div className="absolute inset-x-20 bottom-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
-          <div className="absolute inset-x-60 bottom-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
-          <div className="absolute inset-x-60 bottom-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
-
+            <TextGenerateEffect
+              className="text-center text-[40px] md:text-5xl lg:text-6xl mb-5"
+              words={"Transformando Conceitos em Experiências Surreais"}
+            />
+          <div className="w-full">
           <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-2xl">
             Oi, eu sou Guilherme Gordiano, um Desenvolvedor Web
           </p>
+            <div className="relative inset-x-40 bottom-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+            <div className="relative inset-x-60 bottom-1 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-2/4 blur-sm" />
+            <div className="relative inset-x-60 bottom-1.5 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-2/4" />
+          </div>
+
           <a href="#about">
             <MagicButton
               title="Mostrar meu trabalho"
